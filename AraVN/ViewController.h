@@ -7,7 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AvFoundation.h>
+@interface ViewController : UIViewController{
+    NSArray *textArray;
+    
+    int textCount;
+    IBOutlet UIButton *settingButton;
+    IBOutlet UILabel *backgroundTextLabel;
+    IBOutlet UILabel *textLabel;
+    IBOutlet UIImageView *characterImageView1;
+    IBOutlet UIImageView *characterImageView2;
+    IBOutlet UILabel *mistLabel;
+    
+    AVAudioPlayer *player;
+}
 
-@interface ViewController : UIViewController
+- (IBAction)settingViewAction:(id)sender;
+-(void)audioPlay;
+-(void)nextSeen;
 
 @end
