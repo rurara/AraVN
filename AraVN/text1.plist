@@ -194,29 +194,5 @@
 		<key>voice</key>
 		<string>0</string>
 	</dict>
-	<dict>
-		<key>character</key>
-		<string>0</string>
-		<key>text</key>
-		<string>다시한번 재촉하는 그녀의 목소리가 들려왔다.</string>
-		<key>voice</key>
-		<string>0</string>
-	</dict>
-	<dict>
-		<key>character</key>
-		<string>0</string>
-		<key>text</key>
-		<string>다시한번 재촉하는 그녀의 목소리가 들려왔다.</string>
-		<key>voice</key>
-		<string>0</string>
-	</dict>
-	<dict>
-		<key>character</key>
-		<string>0</string>
-		<key>text</key>
-		<string>다시한번 재촉하는 그녀의 목소리가 들려왔다.</string>
-		<key>voice</key>
-		<string>0</string>
-	</dict>
 </array>
 </plist>

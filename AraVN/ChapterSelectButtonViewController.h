@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ChapterSelectButtonViewController : UIButton
+@interface ChapterSelectButtonViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UIButton *mainButton;
 
 @end

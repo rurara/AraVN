@@ -1,6 +1,7 @@
 //
 //  SettingViewController.h
-//  cyphersGame01
+//  게임 셋팅에 대한 기본 화면
+//  ara vn
 //
 //  Created by happy rurara on 12. 7. 28..
 //  Copyright (c) 2012년 __MyCompanyName__. All rights reserved.

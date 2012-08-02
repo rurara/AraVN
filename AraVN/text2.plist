@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>character</key>
+            <string>shiva</string>
+            <key>text</key>
+            <string>222222222도일? 거기 있어?</string>
+            <key>voice</key>
+            <string>shi_33</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>날카로운 목소리 그게 그녀의 첫 인상이였다.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>조각같은 얼굴 아름다운 몸매를 가진 그녀가 나를 좋아하는 이유를 나로써는 전혀 알지 못했다.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>shiva</string>
+            <key>text</key>
+            <string>도일 데미언! 거기 있냐니까?</string>
+            <key>voice</key>
+            <string>shi_30</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>다시한번 재촉하는 그녀의 목소리가 들려왔다.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>doyle</string>
+            <key>text</key>
+            <string>마. 여 있다. 뭐땜시 그러노?</string>
+            <key>voice</key>
+            <string>do_13</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>그의 사투리에 짜증나는 목소리로 대답이 들려왔다.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>shiva</string>
+            <key>text</key>
+            <string>아. 됐어. 왠지 짜증나기 시작했어.</string>
+            <key>voice</key>
+            <string>shi_29</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>shiva</string>
+            <key>text</key>
+            <string>오늘 같이 연기할 녀석이랑 키스신이 있는데 짜증나서 말이야</string>
+            <key>voice</key>
+            <string>shi_34</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>키스신. </string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>그걸 자신의 남자친구앞에서 자신있게 말할수있는것도 포.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>그녀의 능력이라면 능력일것이다.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>그렇다.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>최고의 연기자 포가 한낱 공사판에서 굴러먹는 날 좋아한다고 고백해온것이다.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>처음앤 무슨 프로그램인가 싶어서 거절을 여러번 했었다.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>하지믄 그녀가 내뱉었던 단 한마디.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>shiva</string>
+            <key>text</key>
+            <string>내가 누군가한테 이렇게 매달린적은 처음이야!</string>
+            <key>voice</key>
+            <string>shi_31</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>shiva</string>
+            <key>text</key>
+            <string>어째서 내마음을 받아주지 않는거지 도일 데미언?</string>
+            <key>voice</key>
+            <string>shi_43</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>shiva</string>
+            <key>text</key>
+            <string>날 보라구.</string>
+            <key>voice</key>
+            <string>shi_17</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>shiva</string>
+            <key>text</key>
+            <string>나같은 여자를 당신같은 사람이 언재 한번 사귀어 보겠어?</string>
+            <key>voice</key>
+            <string>shi_18</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>당당함.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>그녀의 당당함이 나를 그녀의 연인으로 만들어 준것이다.</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>-끝-</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>character</key>
+            <string>0</string>
+            <key>text</key>
+            <string>같이 게임만들거나 하면서 노실분 연락 주세요 / @50won / kgsin7@gmail.com</string>
+            <key>voice</key>
+            <string>0</string>
+        </dict>
+    </array>
+</plist>

@@ -51,8 +51,14 @@
 		C6F4C3EA15CA1DC800B8FFC8 /* shiva.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F4C3D215CA1DC800B8FFC8 /* shiva.png */; };
 		C6F4C3EC15CA1E0C00B8FFC8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F4C3EB15CA1E0C00B8FFC8 /* ViewController.xib */; };
 		C6F4C3ED15CA1E0C00B8FFC8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F4C3EB15CA1E0C00B8FFC8 /* ViewController.xib */; };
-		C6F4C3EF15CA1E2100B8FFC8 /* text.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6F4C3EE15CA1E2100B8FFC8 /* text.plist */; };
-		C6F4C3F015CA1E2100B8FFC8 /* text.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6F4C3EE15CA1E2100B8FFC8 /* text.plist */; };
+		C6F4C3EF15CA1E2100B8FFC8 /* text1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6F4C3EE15CA1E2100B8FFC8 /* text1.plist */; };
+		C6F4C3F015CA1E2100B8FFC8 /* text1.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6F4C3EE15CA1E2100B8FFC8 /* text1.plist */; };
+		C6F4C3F515CA201C00B8FFC8 /* textIndex.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6F4C3F415CA201C00B8FFC8 /* textIndex.plist */; };
+		C6F4C3F615CA201C00B8FFC8 /* textIndex.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6F4C3F415CA201C00B8FFC8 /* textIndex.plist */; };
+		C6FCE9FC15CA7DE3005EA067 /* ChapterSelectButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FCE9FA15CA7DE3005EA067 /* ChapterSelectButtonViewController.m */; };
+		C6FCE9FD15CA7DE3005EA067 /* ChapterSelectButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6FCE9FB15CA7DE3005EA067 /* ChapterSelectButtonViewController.xib */; };
+		C6FCE9FF15CA7F93005EA067 /* text2.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6FCE9FE15CA7F93005EA067 /* text2.plist */; };
+		C6FCEA0115CA7F9E005EA067 /* text3.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6FCEA0015CA7F9E005EA067 /* text3.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,7 +107,13 @@
 		C6F4C3D115CA1DC800B8FFC8 /* doyle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doyle.png; sourceTree = "<group>"; };
 		C6F4C3D215CA1DC800B8FFC8 /* shiva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shiva.png; sourceTree = "<group>"; };
 		C6F4C3EB15CA1E0C00B8FFC8 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		C6F4C3EE15CA1E2100B8FFC8 /* text.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = text.plist; sourceTree = "<group>"; };
+		C6F4C3EE15CA1E2100B8FFC8 /* text1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = text1.plist; sourceTree = "<group>"; };
+		C6F4C3F415CA201C00B8FFC8 /* textIndex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = textIndex.plist; sourceTree = "<group>"; };
+		C6FCE9F915CA7DE3005EA067 /* ChapterSelectButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterSelectButtonViewController.h; sourceTree = "<group>"; };
+		C6FCE9FA15CA7DE3005EA067 /* ChapterSelectButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterSelectButtonViewController.m; sourceTree = "<group>"; };
+		C6FCE9FB15CA7DE3005EA067 /* ChapterSelectButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterSelectButtonViewController.xib; sourceTree = "<group>"; };
+		C6FCE9FE15CA7F93005EA067 /* text2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = text2.plist; sourceTree = "<group>"; };
+		C6FCEA0015CA7F9E005EA067 /* text3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = text3.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,10 +176,11 @@
 		C64D415C15CA0E52002E0110 /* AraVN */ = {
 			isa = PBXGroup;
 			children = (
+				C6FCE9F315CA7CE8005EA067 /* New Group */,
 				C6F4C3F115CA1E3200B8FFC8 /* resource */,
 				C6F4C3BC15CA1D8F00B8FFC8 /* SettingViewController.h */,
-				C6F4C3BD15CA1D8F00B8FFC8 /* SettingViewController.m */,
 				C6F4C3BE15CA1D8F00B8FFC8 /* SettingViewController.xib */,
+				C6F4C3BD15CA1D8F00B8FFC8 /* SettingViewController.m */,
 				C64D416515CA0E53002E0110 /* AppDelegate.h */,
 				C64D416615CA0E53002E0110 /* AppDelegate.m */,
 				C64D416815CA0E53002E0110 /* ViewController.h */,
@@ -211,9 +224,12 @@
 		C6F4C3F115CA1E3200B8FFC8 /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				C6F4C3EE15CA1E2100B8FFC8 /* text.plist */,
+				C6F4C3F415CA201C00B8FFC8 /* textIndex.plist */,
+				C6F4C3EE15CA1E2100B8FFC8 /* text1.plist */,
 				C6F4C3F315CA1E6800B8FFC8 /* img */,
 				C6F4C3F215CA1E6000B8FFC8 /* suond */,
+				C6FCE9FE15CA7F93005EA067 /* text2.plist */,
+				C6FCEA0015CA7F9E005EA067 /* text3.plist */,
 			);
 			name = resource;
 			sourceTree = "<group>";
@@ -242,6 +258,24 @@
 				C6F4C3D215CA1DC800B8FFC8 /* shiva.png */,
 			);
 			name = img;
+			sourceTree = "<group>";
+		};
+		C6F4C3FC15CA3B2000B8FFC8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C6FCE9F915CA7DE3005EA067 /* ChapterSelectButtonViewController.h */,
+				C6FCE9FA15CA7DE3005EA067 /* ChapterSelectButtonViewController.m */,
+				C6FCE9FB15CA7DE3005EA067 /* ChapterSelectButtonViewController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		C6FCE9F315CA7CE8005EA067 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C6F4C3FC15CA3B2000B8FFC8 /* UI */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +363,11 @@
 				C6F4C3E715CA1DC800B8FFC8 /* doyle.png in Resources */,
 				C6F4C3E915CA1DC800B8FFC8 /* shiva.png in Resources */,
 				C6F4C3EC15CA1E0C00B8FFC8 /* ViewController.xib in Resources */,
-				C6F4C3EF15CA1E2100B8FFC8 /* text.plist in Resources */,
+				C6F4C3EF15CA1E2100B8FFC8 /* text1.plist in Resources */,
+				C6F4C3F515CA201C00B8FFC8 /* textIndex.plist in Resources */,
+				C6FCE9FD15CA7DE3005EA067 /* ChapterSelectButtonViewController.xib in Resources */,
+				C6FCE9FF15CA7F93005EA067 /* text2.plist in Resources */,
+				C6FCEA0115CA7F9E005EA067 /* text3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +390,8 @@
 				C6F4C3E815CA1DC800B8FFC8 /* doyle.png in Resources */,
 				C6F4C3EA15CA1DC800B8FFC8 /* shiva.png in Resources */,
 				C6F4C3ED15CA1E0C00B8FFC8 /* ViewController.xib in Resources */,
-				C6F4C3F015CA1E2100B8FFC8 /* text.plist in Resources */,
+				C6F4C3F015CA1E2100B8FFC8 /* text1.plist in Resources */,
+				C6F4C3F615CA201C00B8FFC8 /* textIndex.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +422,7 @@
 				C64D416715CA0E53002E0110 /* AppDelegate.m in Sources */,
 				C64D416A15CA0E53002E0110 /* ViewController.m in Sources */,
 				C6F4C3BF15CA1D8F00B8FFC8 /* SettingViewController.m in Sources */,
+				C6FCE9FC15CA7DE3005EA067 /* ChapterSelectButtonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

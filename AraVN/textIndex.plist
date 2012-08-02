@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>text1</key>
+	<array>
+		<dict>
+			<key>chapterText</key>
+			<string>1번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text2</string>
+		</dict>
+		<dict>
+			<key>chapterText</key>
+			<string>2번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text3</string>
+		</dict>
+	</array>
+	<key>text2</key>
+	<array>
+		<dict>
+			<key>chapterText</key>
+			<string>1번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text2</string>
+		</dict>
+		<dict>
+			<key>chapterText</key>
+			<string>1번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text2</string>
+		</dict>
+		<dict>
+			<key>chapterText</key>
+			<string>1번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text2</string>
+		</dict>
+	</array>
+	<key>text3</key>
+	<array>
+		<dict>
+			<key>chapterText</key>
+			<string>1번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text2</string>
+		</dict>
+		<dict>
+			<key>chapterText</key>
+			<string>1번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text2</string>
+		</dict>
+		<dict>
+			<key>chapterText</key>
+			<string>1번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text2</string>
+		</dict>
+	</array>
+	<key>text4</key>
+	<array>
+		<dict>
+			<key>chapterText</key>
+			<string>1번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text2</string>
+		</dict>
+		<dict>
+			<key>chapterText</key>
+			<string>1번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text2</string>
+		</dict>
+		<dict>
+			<key>chapterText</key>
+			<string>1번째 선택지</string>
+			<key>nextChapter</key>
+			<string>text2</string>
+		</dict>
+	</array>
+</dict>
 </plist>
