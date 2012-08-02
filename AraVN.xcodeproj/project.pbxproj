@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C64D415715CA0E52002E0110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64D415615CA0E52002E0110 /* UIKit.framework */; };
+		C64D415915CA0E52002E0110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64D415815CA0E52002E0110 /* Foundation.framework */; };
+		C64D415B15CA0E52002E0110 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64D415A15CA0E52002E0110 /* CoreGraphics.framework */; };
+		C64D416115CA0E53002E0110 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C64D415F15CA0E53002E0110 /* InfoPlist.strings */; };
+		C64D416315CA0E53002E0110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C64D416215CA0E53002E0110 /* main.m */; };
+		C64D416715CA0E53002E0110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C64D416615CA0E53002E0110 /* AppDelegate.m */; };
+		C64D416A15CA0E53002E0110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64D416915CA0E53002E0110 /* ViewController.m */; };
+		C64D416D15CA0E53002E0110 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C64D416B15CA0E53002E0110 /* ViewController.xib */; };
+		C64D417515CA0E53002E0110 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64D417415CA0E53002E0110 /* SenTestingKit.framework */; };
+		C64D417615CA0E53002E0110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64D415615CA0E52002E0110 /* UIKit.framework */; };
+		C64D417715CA0E53002E0110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64D415815CA0E52002E0110 /* Foundation.framework */; };
+		C64D417F15CA0E53002E0110 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C64D417D15CA0E53002E0110 /* InfoPlist.strings */; };
+		C64D418215CA0E53002E0110 /* AraVNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C64D418115CA0E53002E0110 /* AraVNTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C64D417815CA0E53002E0110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C64D414915CA0E52002E0110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C64D415115CA0E52002E0110;
+			remoteInfo = AraVN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C64D415215CA0E52002E0110 /* AraVN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AraVN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64D415615CA0E52002E0110 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C64D415815CA0E52002E0110 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C64D415A15CA0E52002E0110 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C64D415E15CA0E53002E0110 /* AraVN-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AraVN-Info.plist"; sourceTree = "<group>"; };
+		C64D416015CA0E53002E0110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C64D416215CA0E53002E0110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C64D416415CA0E53002E0110 /* AraVN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AraVN-Prefix.pch"; sourceTree = "<group>"; };
+		C64D416515CA0E53002E0110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C64D416615CA0E53002E0110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C64D416815CA0E53002E0110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C64D416915CA0E53002E0110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C64D416C15CA0E53002E0110 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C64D417315CA0E53002E0110 /* AraVNTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AraVNTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64D417415CA0E53002E0110 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C64D417C15CA0E53002E0110 /* AraVNTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AraVNTests-Info.plist"; sourceTree = "<group>"; };
+		C64D417E15CA0E53002E0110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C64D418015CA0E53002E0110 /* AraVNTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AraVNTests.h; sourceTree = "<group>"; };
+		C64D418115CA0E53002E0110 /* AraVNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AraVNTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C64D414F15CA0E52002E0110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64D415715CA0E52002E0110 /* UIKit.framework in Frameworks */,
+				C64D415915CA0E52002E0110 /* Foundation.framework in Frameworks */,
+				C64D415B15CA0E52002E0110 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64D416F15CA0E53002E0110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64D417515CA0E53002E0110 /* SenTestingKit.framework in Frameworks */,
+				C64D417615CA0E53002E0110 /* UIKit.framework in Frameworks */,
+				C64D417715CA0E53002E0110 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C64D414715CA0E52002E0110 = {
+			isa = PBXGroup;
+			children = (
+				C64D415C15CA0E52002E0110 /* AraVN */,
+				C64D417A15CA0E53002E0110 /* AraVNTests */,
+				C64D415515CA0E52002E0110 /* Frameworks */,
+				C64D415315CA0E52002E0110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C64D415315CA0E52002E0110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C64D415215CA0E52002E0110 /* AraVN.app */,
+				C64D417315CA0E53002E0110 /* AraVNTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C64D415515CA0E52002E0110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C64D415615CA0E52002E0110 /* UIKit.framework */,
+				C64D415815CA0E52002E0110 /* Foundation.framework */,
+				C64D415A15CA0E52002E0110 /* CoreGraphics.framework */,
+				C64D417415CA0E53002E0110 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C64D415C15CA0E52002E0110 /* AraVN */ = {
+			isa = PBXGroup;
+			children = (
+				C64D416515CA0E53002E0110 /* AppDelegate.h */,
+				C64D416615CA0E53002E0110 /* AppDelegate.m */,
+				C64D416815CA0E53002E0110 /* ViewController.h */,
+				C64D416915CA0E53002E0110 /* ViewController.m */,
+				C64D416B15CA0E53002E0110 /* ViewController.xib */,
+				C64D415D15CA0E53002E0110 /* Supporting Files */,
+			);
+			path = AraVN;
+			sourceTree = "<group>";
+		};
+		C64D415D15CA0E53002E0110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C64D415E15CA0E53002E0110 /* AraVN-Info.plist */,
+				C64D415F15CA0E53002E0110 /* InfoPlist.strings */,
+				C64D416215CA0E53002E0110 /* main.m */,
+				C64D416415CA0E53002E0110 /* AraVN-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C64D417A15CA0E53002E0110 /* AraVNTests */ = {
+			isa = PBXGroup;
+			children = (
+				C64D418015CA0E53002E0110 /* AraVNTests.h */,
+				C64D418115CA0E53002E0110 /* AraVNTests.m */,
+				C64D417B15CA0E53002E0110 /* Supporting Files */,
+			);
+			path = AraVNTests;
+			sourceTree = "<group>";
+		};
+		C64D417B15CA0E53002E0110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C64D417C15CA0E53002E0110 /* AraVNTests-Info.plist */,
+				C64D417D15CA0E53002E0110 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C64D415115CA0E52002E0110 /* AraVN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64D418515CA0E53002E0110 /* Build configuration list for PBXNativeTarget "AraVN" */;
+			buildPhases = (
+				C64D414E15CA0E52002E0110 /* Sources */,
+				C64D414F15CA0E52002E0110 /* Frameworks */,
+				C64D415015CA0E52002E0110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AraVN;
+			productName = AraVN;
+			productReference = C64D415215CA0E52002E0110 /* AraVN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C64D417215CA0E53002E0110 /* AraVNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64D418815CA0E53002E0110 /* Build configuration list for PBXNativeTarget "AraVNTests" */;
+			buildPhases = (
+				C64D416E15CA0E53002E0110 /* Sources */,
+				C64D416F15CA0E53002E0110 /* Frameworks */,
+				C64D417015CA0E53002E0110 /* Resources */,
+				C64D417115CA0E53002E0110 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C64D417915CA0E53002E0110 /* PBXTargetDependency */,
+			);
+			name = AraVNTests;
+			productName = AraVNTests;
+			productReference = C64D417315CA0E53002E0110 /* AraVNTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C64D414915CA0E52002E0110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = C64D414C15CA0E52002E0110 /* Build configuration list for PBXProject "AraVN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C64D414715CA0E52002E0110;
+			productRefGroup = C64D415315CA0E52002E0110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C64D415115CA0E52002E0110 /* AraVN */,
+				C64D417215CA0E53002E0110 /* AraVNTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C64D415015CA0E52002E0110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64D416115CA0E53002E0110 /* InfoPlist.strings in Resources */,
+				C64D416D15CA0E53002E0110 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64D417015CA0E53002E0110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64D417F15CA0E53002E0110 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C64D417115CA0E53002E0110 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C64D414E15CA0E52002E0110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64D416315CA0E53002E0110 /* main.m in Sources */,
+				C64D416715CA0E53002E0110 /* AppDelegate.m in Sources */,
+				C64D416A15CA0E53002E0110 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64D416E15CA0E53002E0110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64D418215CA0E53002E0110 /* AraVNTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C64D417915CA0E53002E0110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C64D415115CA0E52002E0110 /* AraVN */;
+			targetProxy = C64D417815CA0E53002E0110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C64D415F15CA0E53002E0110 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C64D416015CA0E53002E0110 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C64D416B15CA0E53002E0110 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C64D416C15CA0E53002E0110 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		C64D417D15CA0E53002E0110 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C64D417E15CA0E53002E0110 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C64D418315CA0E53002E0110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C64D418415CA0E53002E0110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C64D418615CA0E53002E0110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AraVN/AraVN-Prefix.pch";
+				INFOPLIST_FILE = "AraVN/AraVN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C64D418715CA0E53002E0110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AraVN/AraVN-Prefix.pch";
+				INFOPLIST_FILE = "AraVN/AraVN-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C64D418915CA0E53002E0110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AraVN.app/AraVN";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AraVN/AraVN-Prefix.pch";
+				INFOPLIST_FILE = "AraVNTests/AraVNTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C64D418A15CA0E53002E0110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AraVN.app/AraVN";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AraVN/AraVN-Prefix.pch";
+				INFOPLIST_FILE = "AraVNTests/AraVNTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C64D414C15CA0E52002E0110 /* Build configuration list for PBXProject "AraVN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64D418315CA0E53002E0110 /* Debug */,
+				C64D418415CA0E53002E0110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C64D418515CA0E53002E0110 /* Build configuration list for PBXNativeTarget "AraVN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64D418615CA0E53002E0110 /* Debug */,
+				C64D418715CA0E53002E0110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C64D418815CA0E53002E0110 /* Build configuration list for PBXNativeTarget "AraVNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64D418915CA0E53002E0110 /* Debug */,
+				C64D418A15CA0E53002E0110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C64D414915CA0E52002E0110 /* Project object */;
+}
