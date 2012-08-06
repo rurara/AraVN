@@ -56,23 +56,23 @@
         
         ChapterSelectBackGroundViewController *selectBackground = [ChapterSelectBackGroundViewController new];
         
-        int height = ([textIndex count] * 50) + (([textIndex count] -1) * 20);
         
-        selectBackground.view.frame = CGRectMake( ( 320 - 150 ) /2, 40, 150, height);
+        selectBackground.selectArray = [textIndex objectForKey:@"text1"];
         
         [self.view addSubview:selectBackground.view];
+        [selectBackground settingMistLabel];
         
-        NSLog(@"%@", [[[textIndex objectForKey:@"text1"] objectAtIndex:0]objectForKey:@"chapterText"]);
-        
-        
-        NSString *tempString = [[[textIndex objectForKey:@"text1"] objectAtIndex:0]objectForKey:@"chapterText"];
+//?        NSLog(@"%@", [[[textIndex objectForKey:@"text1"] objectAtIndex:0]objectForKey:@"chapterText"]);
         
         
-        NSLog(@"string - %@", tempString);
-        ChapterSelectButtonViewController *chbutton = [ChapterSelectButtonViewController new];
-        [self.view addSubview:chbutton.view];
+//        NSString *tempString = [[[textIndex objectForKey:@"text1"] objectAtIndex:0]objectForKey:@"chapterText"];
+//        
+//        
+//        NSLog(@"string - %@", tempString);
+//        ChapterSelectButtonViewController *chbutton = [ChapterSelectButtonViewController new];
+//        [selectBackground.view addSubview:chbutton.view];
         
-                [chbutton mainButtonSetTitle:tempString];
+//                [chbutton mainButtonSetTitle:tempString];
         
     }else if( textCount >= [textArray count] ){
         //텍스트 카운트가 높아서 아무런 이벤트 없음

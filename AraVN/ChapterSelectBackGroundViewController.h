@@ -10,7 +10,9 @@
 
 @interface ChapterSelectBackGroundViewController : UIViewController{
     IBOutlet UILabel *mistLabel;
-    
+    NSArray *selectArray;
 }
-
+@property (nonatomic, retain) NSArray *selectArray;
+- (void) settingMistLabel;
+- (void) drawButton;
 @end
