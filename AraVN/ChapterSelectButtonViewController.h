@@ -11,4 +11,6 @@
 @interface ChapterSelectButtonViewController : UIViewController
 @property (retain, nonatomic) IBOutlet UIButton *mainButton;
 
+
+- (void) mainButtonSetTitle:(NSString *) titleName;
 @end

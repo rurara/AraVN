@@ -19,6 +19,8 @@
 		C64D417715CA0E53002E0110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64D415815CA0E52002E0110 /* Foundation.framework */; };
 		C64D417F15CA0E53002E0110 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C64D417D15CA0E53002E0110 /* InfoPlist.strings */; };
 		C64D418215CA0E53002E0110 /* AraVNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C64D418115CA0E53002E0110 /* AraVNTests.m */; };
+		C656A5D415CF812000825C7C /* ChapterSelectBackGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C656A5D215CF811F00825C7C /* ChapterSelectBackGroundViewController.m */; };
+		C656A5D515CF812000825C7C /* ChapterSelectBackGroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C656A5D315CF811F00825C7C /* ChapterSelectBackGroundViewController.xib */; };
 		C6F4C3BF15CA1D8F00B8FFC8 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F4C3BD15CA1D8F00B8FFC8 /* SettingViewController.m */; };
 		C6F4C3C015CA1D8F00B8FFC8 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F4C3BD15CA1D8F00B8FFC8 /* SettingViewController.m */; };
 		C6F4C3C115CA1D8F00B8FFC8 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F4C3BE15CA1D8F00B8FFC8 /* SettingViewController.xib */; };
@@ -90,6 +92,9 @@
 		C64D417E15CA0E53002E0110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C64D418015CA0E53002E0110 /* AraVNTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AraVNTests.h; sourceTree = "<group>"; };
 		C64D418115CA0E53002E0110 /* AraVNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AraVNTests.m; sourceTree = "<group>"; };
+		C656A5D115CF811F00825C7C /* ChapterSelectBackGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterSelectBackGroundViewController.h; sourceTree = "<group>"; };
+		C656A5D215CF811F00825C7C /* ChapterSelectBackGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterSelectBackGroundViewController.m; sourceTree = "<group>"; };
+		C656A5D315CF811F00825C7C /* ChapterSelectBackGroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterSelectBackGroundViewController.xib; sourceTree = "<group>"; };
 		C6F4C3BC15CA1D8F00B8FFC8 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		C6F4C3BD15CA1D8F00B8FFC8 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		C6F4C3BE15CA1D8F00B8FFC8 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
@@ -266,6 +271,9 @@
 				C6FCE9F915CA7DE3005EA067 /* ChapterSelectButtonViewController.h */,
 				C6FCE9FA15CA7DE3005EA067 /* ChapterSelectButtonViewController.m */,
 				C6FCE9FB15CA7DE3005EA067 /* ChapterSelectButtonViewController.xib */,
+				C656A5D115CF811F00825C7C /* ChapterSelectBackGroundViewController.h */,
+				C656A5D215CF811F00825C7C /* ChapterSelectBackGroundViewController.m */,
+				C656A5D315CF811F00825C7C /* ChapterSelectBackGroundViewController.xib */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -368,6 +376,7 @@
 				C6FCE9FD15CA7DE3005EA067 /* ChapterSelectButtonViewController.xib in Resources */,
 				C6FCE9FF15CA7F93005EA067 /* text2.plist in Resources */,
 				C6FCEA0115CA7F9E005EA067 /* text3.plist in Resources */,
+				C656A5D515CF812000825C7C /* ChapterSelectBackGroundViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +432,7 @@
 				C64D416A15CA0E53002E0110 /* ViewController.m in Sources */,
 				C6F4C3BF15CA1D8F00B8FFC8 /* SettingViewController.m in Sources */,
 				C6FCE9FC15CA7DE3005EA067 /* ChapterSelectButtonViewController.m in Sources */,
+				C656A5D415CF812000825C7C /* ChapterSelectBackGroundViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

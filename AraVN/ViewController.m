@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "SettingViewController.h"
 #import "ChapterSelectButtonViewController.h"
+#import "ChapterSelectBackGroundViewController.h"
+
 
 @interface ViewController ()
 
@@ -24,13 +26,13 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:@"text1" ofType:@"plist"];
     textArray = [[NSArray alloc] initWithContentsOfFile:path];
     /*1챕터 로딩*/
-NSLog(@"--tiii %@",textArray);
+
     // 챕터 목자 저장
     path = [[NSBundle mainBundle] pathForResource:@"textIndex" ofType:@"plist"];
-    textIndex = [[NSArray alloc] initWithContentsOfFile:path];
 
-    NSLog(@"--tiii %@",textIndex);
+    textIndex = [[NSDictionary alloc] initWithContentsOfFile:path];
     
+
     
     textCount = 0;
     
@@ -51,18 +53,26 @@ NSLog(@"--tiii %@",textArray);
     
 //    if (textCount == [textArray count] ) {
     if (textCount == 3 ) {
-//        [[[textIndex objectAtIndex:0] objectAtIndex:0]objectForKey:@"chapterText"];
-        NSLog(@"%@", [[[textIndex objectAtIndex:0] objectAtIndex:0]objectForKey:@"chapterText"]);
         
-//        NSLog(@"--%@",[textIndex objectAtIndex:0]);
-        NSLog(@"---%@",textIndex);
+        ChapterSelectBackGroundViewController *selectBackground = [ChapterSelectBackGroundViewController new];
+        
+        int height = ([textIndex count] * 50) + (([textIndex count] -1) * 20);
+        
+        selectBackground.view.frame = CGRectMake( ( 320 - 150 ) /2, 40, 150, height);
+        
+        [self.view addSubview:selectBackground.view];
+        
+        NSLog(@"%@", [[[textIndex objectForKey:@"text1"] objectAtIndex:0]objectForKey:@"chapterText"]);
         
         
-        NSString *tempString = [[[textIndex objectAtIndex:0] objectAtIndex:0]objectForKey:@"chapterText"];
+        NSString *tempString = [[[textIndex objectForKey:@"text1"] objectAtIndex:0]objectForKey:@"chapterText"];
         
+        
+        NSLog(@"string - %@", tempString);
         ChapterSelectButtonViewController *chbutton = [ChapterSelectButtonViewController new];
-        [chbutton.mainButton setTitle:tempString forState:UIControlStateNormal];
         [self.view addSubview:chbutton.view];
+        
+                [chbutton mainButtonSetTitle:tempString];
         
     }else if( textCount >= [textArray count] ){
         //텍스트 카운트가 높아서 아무런 이벤트 없음

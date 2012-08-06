@@ -1,24 +1,18 @@
 //
-//  ChapterSelectButtonViewController.m
+//  ChapterSelectBackGroundViewController.m
 //  AraVN
 //
-//  Created by happy rurara on 12. 8. 2..
+//  Created by happy rurara on 12. 8. 6..
 //
 //
 
-#import "ChapterSelectButtonViewController.h"
+#import "ChapterSelectBackGroundViewController.h"
 
-@interface ChapterSelectButtonViewController ()
+@interface ChapterSelectBackGroundViewController ()
 
 @end
 
-@implementation ChapterSelectButtonViewController
-@synthesize mainButton;
-
-- (void) mainButtonSetTitle:(NSString *) titleName{
-    [mainButton setTitle:titleName forState:UIControlStateNormal];
-    NSLog(@"title  -- %@",titleName);
-}
+@implementation ChapterSelectBackGroundViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,14 +26,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-//    [mainButton setTitle:@"dddd" forState:UIControlStateNormal];
     // Do any additional setup after loading the view from its nib.
+    mistLabel.frame = self.view.frame;
 }
 
 - (void)viewDidUnload
 {
-    [self setMainButton:nil];
+    [mistLabel release];
+    mistLabel = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -51,7 +45,7 @@
 }
 
 - (void)dealloc {
-    [mainButton release];
+    [mistLabel release];
     [super dealloc];
 }
 @end
